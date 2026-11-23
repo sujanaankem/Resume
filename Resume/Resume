@@ -1,0 +1,316 @@
+
+%-------------------------
+% Resume - Sujana
+% Full Stack .NET Developer
+% Based on Nanu Panchamurthy Resume Template
+%-------------------------
+
+%------------PACKAGES----------------
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{verbatim}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+
+\input glyphtounicode
+\pdfgentounicode=1
+
+%----------FONT OPTIONS-------------------
+\usepackage[default]{sourcesanspro}
+\urlstyle{same}
+
+%----------MARGIN OPTIONS-----------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\footrulewidth}{0in}
+
+\setlength{\tabcolsep}{0in}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.0in}
+
+\raggedbottom{}
+\raggedright{}
+
+%--------SECTIONING COMMANDS---------
+\titleformat{\section}
+  {\scshape\large}{}
+  {0em}{\color{blue}}[\color{black}\titlerule\vspace{0pt}]
+
+%--------REDEFINITIONS----------------
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\ULdepth}{2pt}
+
+%--------CUSTOM COMMANDS--------------
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}[rightmargin=0.11in]
+}
+
+\newcommand{\resumeItemListEnd}{
+  \end{itemize}
+}
+
+\newcommand{\resumeSectionType}[3]{
+  \item\begin{tabular*}{0.96\textwidth}[t]{
+    p{0.15\linewidth}p{0.02\linewidth}p{0.81\linewidth}
+  }
+    \textbf{#1} & #2 & #3
+  \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeTrioHeading}[3]{
+  \item\small{
+    \begin{tabular*}{0.96\textwidth}[t]{
+      l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r
+    }
+      \textbf{#1} & \textit{#2} & #3
+    \end{tabular*}
+  }
+}
+
+\newcommand{\resumeQuadHeading}[4]{
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeQuadHeadingChild}[2]{
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{\small#1} & {\small#2} \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeHeadingListStart}{
+  \begin{itemize}[leftmargin=0.15in, label={}]
+}
+
+\newcommand{\resumeHeadingListEnd}{
+  \end{itemize}
+}
+
+%__________________RESUME____________________
+\begin{document}
+
+%-----------CONTACT DETAILS------------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge SUJANA \vspace{2pt}} &
+  Location: Andhra Pradesh, India \\
+  Full Stack .NET Developer &
+  Email: [Your Email] \\
+  &
+  Mobile: [Your Phone Number] \\
+  LinkedIn: [LinkedIn Profile] &
+  GitHub: [GitHub Profile]
+\end{tabular*}
+
+%-----------SUMMARY--------------------------
+
+\section{Professional Summary}
+
+\small{
+Aspiring \textbf{Full Stack .NET Developer} with
+\textbf{6 months of internship experience} in web
+application development. Familiar with building
+responsive user interfaces using \textbf{React.js,
+JavaScript, HTML, and CSS}, along with backend
+development using \textbf{.NET and C\#}. Hands-on
+experience with \textbf{SQL Server and MongoDB}
+for database management. Currently contributing
+to a \textbf{Community Residence Management System},
+gaining practical exposure to application architecture,
+API integration, and full-stack development.
+}
+
+%--------------SKILLS------------------------
+
+\section{Technical Skills}
+
+\resumeHeadingListStart{}
+  \resumeSectionType{Frontend}{:}{
+    HTML, CSS, JavaScript, React.js
+  }
+  \resumeSectionType{Backend}{:}{
+    .NET, C\#, MVC
+  }
+  \resumeSectionType{Databases}{:}{
+    SQL Server, MongoDB
+  }
+  \resumeSectionType{Cloud}{:}{
+    Azure, CI/CD
+  }
+  \resumeSectionType{Architecture}{:}{
+    Full Stack Development, MVC Architecture
+  }
+  \resumeSectionType{AI}{:}{
+    Prompt Engineering, Agentic AI
+  }
+\resumeHeadingListEnd{}
+
+%-----------EXPERIENCE-----------------------
+
+\section{Experience}
+
+\resumeHeadingListStart{}
+
+  \resumeQuadHeading
+    {Full Stack Developer Intern}
+    {May 2026 -- Present}
+    {Medsquire Technologies Private Limited}
+    {India}
+
+  \resumeItemListStart{}
+    \resumeItem{
+      Contributing to full-stack web application
+      development using modern frontend and backend
+      technologies.
+    }
+
+    \resumeItem{
+      Developing responsive and user-friendly web
+      interfaces using \textbf{HTML, CSS, JavaScript,
+      and React.js}.
+    }
+
+    \resumeItem{
+      Working on backend development using
+      \textbf{.NET and C\#} to support application
+      functionality.
+    }
+
+    \resumeItem{
+      Working with \textbf{SQL Server and MongoDB}
+      for database operations and data management.
+    }
+
+    \resumeItem{
+      Contributing to a Community Residence
+      Management System involving multiple
+      interconnected applications.
+    }
+  \resumeItemListEnd{}
+
+\resumeHeadingListEnd{}
+
+%-----------EDUCATION-------------------------
+
+\section{Education}
+
+\resumeHeadingListStart{}
+
+  \resumeQuadHeading
+    {Master of Business Administration (MBA)}
+    {[Completion Year]}
+    {Shri Vishnu Engineering College for Women}
+    {}
+
+  \resumeQuadHeading
+    {Bachelor of Science (B.Sc.)}
+    {[Completion Year]}
+    {CH.S.D. St. Theresa's College for Women}
+    {}
+
+  \resumeQuadHeading
+    {Intermediate}
+    {[Completion Year]}
+    {Sri Chaitanya Junior College}
+    {}
+
+  \resumeQuadHeading
+    {Secondary School Certificate (SSC)}
+    {[Completion Year]}
+    {Narayana English Medium School}
+    {}
+
+\resumeHeadingListEnd{}
+
+%-----------PROJECTS--------------------------
+
+\section{Projects}
+
+\resumeHeadingListStart{}
+
+  \resumeTrioHeading
+    {Community Residence Management System}
+    {React.js, .NET, C\#, SQL, MongoDB}
+    {RWA Application}
+
+  \resumeItemListStart{}
+
+    \resumeItem{
+      Contributing to the development of the
+      \textbf{RWA (Residents Welfare Association)}
+      application as part of a multi-application
+      Community Residence Management System.
+    }
+
+    \resumeItem{
+      Working on \textbf{RESTful API integration}
+      between frontend and backend services.
+    }
+
+    \resumeItem{
+      Working on \textbf{CRUD operations} for
+      managing residents, complaints, announcements,
+      and community information.
+    }
+
+    \resumeItem{
+      Implementing \textbf{role-based access control}
+      for different application users.
+    }
+
+    \resumeItem{
+      Working with \textbf{SQL Server and MongoDB}
+      for data storage and management.
+    }
+
+    \resumeItem{
+      Contributing to integration between multiple
+      interconnected applications.
+    }
+
+  \resumeItemListEnd{}
+
+\resumeHeadingListEnd{}
+
+%----------------OTHERS----------------------
+
+\section{Additional Information}
+
+\resumeItemListStart{}
+
+  \resumeItem{
+    \textbf{Languages:} Telugu, English, Hindi (Basic)
+  }
+
+  \resumeItem{
+    \textbf{Strengths:} Adaptability, Active Listening,
+    Observation, Willingness to Learn
+  }
+
+\resumeItemListEnd{}
+
+%--------------------------------------------
+
+\end{document}
